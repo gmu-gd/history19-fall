@@ -256,6 +256,13 @@ a:hover, #nav-home a:hover {
 p a {
     border-bottom: 1px dotted black;
 }
+ul.references li a {
+  border-bottom: 1px dotted black;
+}
+ul.references li a:hover {
+  color: blue;
+  border-bottom: 1px dotted blue;
+}
 a.active {
     color: black;
     border-bottom: 1px dotted black;
