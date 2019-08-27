@@ -113,7 +113,7 @@ body {
 }
 .lock-y {overflow-y: hidden;}
 header {
-    background-color: tomato;
+    background-color: blue;
     z-index: 3;
     border-bottom: 2px whitesmoke solid;
     margin: 0;
@@ -152,7 +152,7 @@ header {
 .student {
     width: 20%;
     height: 10vh;
-    background-color: tomato;
+    background-color: blue;
     margin: 0;
     float: left;
     border: 2px solid whitesmoke;
@@ -177,7 +177,7 @@ header {
     margin: 25px auto;
     background-color: whitesmoke;
     border: 3px solid black;
-    box-shadow: 6px 6px 0 0 tomato;
+    box-shadow: 6px 6px 0 0 blue;
 }
 footer {
     border-top: 2px whitesmoke solid;
@@ -185,7 +185,7 @@ footer {
 h1 {
     font-family: 'Fira Mono', monospace;
     font-size: 1.2rem;
-    color: tomato;
+    color: blue;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -209,6 +209,20 @@ h2 {
     margin: 0;
     padding: 0;
     text-transform: capitalize;
+}
+
+h2.home-nav-list, h2.home-nav-list a {
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 35vh;
+}
+h2.home-nav-list a {
+  border-bottom: blue 3px dotted;
+  transition: color .5s ease;
+}
+h2.home-nav-list a:hover {
+  color: blue;
 }
 h3 {
     font-family: 'Fira Mono', monospace;
@@ -260,12 +274,12 @@ header a:hover {
     font-size: .8rem;
 }
 footer a {
-    color: tomato;
+    color: blue;
 }
 footer a:hover {
-    color: tomato;
+    color: blue;
     text-decoration: none;
-    border-bottom: 1px dotted tomato;
+    border-bottom: 1px dotted blue;
 }
 strong {
     font-weight: 700;
@@ -290,11 +304,14 @@ li.heading {
     font-weight: bold;
     letter-spacing: 1px;
 }
+li.date {
+  margin-top: 15px;
+}
 .menu-list ul li {
     padding: 10px 5px;
     text-align: right;
 }
-.bg-db {background-color: tomato;}
+.bg-db {background-color: blue;}
 .print-only {display: none;}
 ul.decorate {list-style-type: initial; padding-left: 20px;}
 ul.web-meta {margin: 0; padding: 0;}
