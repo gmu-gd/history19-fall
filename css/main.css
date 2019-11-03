@@ -248,8 +248,11 @@ p {
     color: black;
 }
 a {
-    color: white;
+    color: black;
     text-decoration: none;
+}
+#nav-home a {
+  color: white;
 }
 .home-nav-list a {
   color: black;
