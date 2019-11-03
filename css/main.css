@@ -272,7 +272,7 @@ ul.references li a:hover {
   color: blue;
   border-bottom: 1px dotted blue;
 }
-a.active {
+#nav-home a.active {
     color: black;
     border-bottom: 1px dotted black;
 }
